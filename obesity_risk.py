@@ -7,7 +7,7 @@ import streamlit as st
 import xgboost
 
 #load the saved model - read binary
-loaded_model = pickle.load(open('C:/Users/Lenovo/Desktop/dissertation/CIS/obesity_risk/obesityriskapp.pkl', 'rb'))
+loaded_model = pickle.load(open('obesityriskapp.pkl', 'rb'))
 
 #create function for prediction
 def prediction(input_data):
